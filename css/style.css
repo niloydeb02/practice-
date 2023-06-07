@@ -1,0 +1,80 @@
+/*fonts file start*/
+@font-face{
+	font-family:lato-bold;
+	src: url(../fonts/lato/lato-bold.ttf);
+}
+@font-face{
+	font-family:lato-medium;
+	src: url(../fonts/lato/lato-medium.ttf);
+}
+@font-face{
+	font-family:lato-regular;
+	src: url(../fonts/lato/lato-regular.ttf);
+}
+@font-face{
+	font-family:roboto-regular;
+	src: url(../fonts/roboto/roboto-regular.ttf);
+}
+/*fonts file end*/
+/*common css start*/
+body{
+	font-family:roboto-regular;
+	font-size: 16px;
+	font-weight:400;
+	color:#8e8e8e;
+}
+/*common css end*/
+
+/*header start*/
+header{border: 1px solid;
+	padding: 35px 0;
+
+}
+.c_nav{}
+.logo h1{
+	font-family:lato-medium;
+	font-size: 30px;
+	color: #333333;
+	text-transform: uppercase;
+}
+.menu{}
+.menu ul li a{
+	font-family:lato-regular;
+	font-size: 16px;
+	color: #8e8e8e;
+	text-transform: uppercase;
+}
+.d_toggle::after {
+    display: none;
+  
+}
+.dpm{
+	width: 400px;
+	padding: 5px 10px;
+	border-radius: 0;
+}
+.dpm[data-bs-popper] {
+    top: 90px;
+    left: -350px;
+    margin-top:0;
+}
+.s_submit{
+	width: 100%;
+	height: 45px;
+	border: 0;
+}
+.s_submit:focus {
+   
+    box-shadow:none;
+}
+.s_button{
+	width: 100%;
+	height: 45px;
+	border: 0;
+	background: transparent;
+}
+.menu ul li a:hover{
+	color:#333333;
+}
+
+/*header end*/
